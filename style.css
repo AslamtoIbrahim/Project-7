@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: 106% -338%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 372px;
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.sec1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.top-img{
+    width: 100%;
+}
+
+.card-img{
+    border-radius: 100%;
+    border: 0.4rem solid white;
+    position: absolute;
+    top: -61px;
+}
+
+.name{
+   margin: 4rem 0 0.5rem 0;
+   font-weight: 700;
+}
+
+.name span{
+    font-weight: 100;
+    color: hsl(0, 0%, 59%);
+}
+
+.city{
+    color: hsl(0, 0%, 59%);
+}
+
+hr{
+    background-color: hsla(188, 12%, 76%, 0.411);
+    height: 0.1rem;
+    width: 100%;
+    margin: 1.5rem 0 0 0;
+    border-width: 0;
+}
+
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    width: 100%;
+}
+
+.sec2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2 p{
+    color: hsl(0, 0%, 59%);
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+
+.attribution{
+    margin-top: 5rem;
+    text-align: center;
+}
