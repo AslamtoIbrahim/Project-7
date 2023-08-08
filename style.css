@@ -95,3 +95,27 @@ hr {
     margin-top: 5rem;
     text-align: center;
 }
+
+
+@media only screen and (max-width:375px) {
+    body{
+        padding: 1rem;
+        padding: 1rem;
+        background-position: 427% -39vh, 26vh 13vh;
+        background-size: 26rem 75.5rem;
+    }
+    .container{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .attribution {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
